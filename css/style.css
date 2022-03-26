@@ -1,0 +1,418 @@
+*{
+	margin: 0px;
+	padding: 0 auto;
+}
+.container{
+	max-width: 1140px;
+    margin: 0 auto;
+
+}
+body{
+  font-family: Pacifico,sans-serif;
+}
+.head-top{
+background: url(../img/banner1.png);
+  position: relative;
+  background-size: 100% 100%;
+  height: auto;
+}
+#navbarNav {
+  justify-content: end;
+  font-size: 18px;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+
+    padding: 50px;
+
+}
+.nav-link.active {
+  color: black !important;
+}
+.nav-item {
+  padding: 12px 30px 7px;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: rgb(0, 0, 0) !important;
+}
+.banner-img-1 {
+  width: 82%;
+}
+.banner-title {
+  font-size: 75px;
+  line-height: 46px;
+  padding: 49px;
+  font-weight: bold;
+}
+.banner-sub-title {
+  padding-top: 20px;
+  padding-left: 51px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.discrip {
+  padding-top: 7px;
+  padding-left: 51px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.banner-btn {
+  padding: 9px 36px;
+  border: none;
+  border-radius: 34px;
+  margin-left: 43px;
+  margin-top: 26px;
+}
+.banner-btn:hover{
+  background-color: black;
+  color: green;
+  font-weight: 800;
+}
+.best-title {
+  font-size: 37px;
+  font-weight: bold;
+}
+.best-title::before{
+  position: absolute;
+  content: "";
+  background: #ebbf60;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  margin-left: -37px;
+}
+.best-title::after{
+  position: absolute;
+  content: "";
+  background: #ebbf60;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  margin-left: 15px;
+}
+.Best {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.best-discription {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+.best-text {
+  margin-top: 93px;
+  font-family: Cormorant Garamond;
+}
+.best-img::after {
+  position: absolute;
+  content: "";
+  width: 1269px;
+  height: 1232px;
+  background: url(../img/croo.png);
+    background-repeat: repeat;
+  top: -11px;
+  left: -157%;
+  right: 40px;
+  background-repeat: no-repeat;
+}
+.best-design-img {
+  border: #eec668 solid 31px;
+  border-radius: 285px;
+}
+.design{
+  color: #fff;
+  bottom: 82px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+    font-family: Cormorant Garamond;
+}
+.best-btn {
+  border: #ebbf60 solid 3px;
+  padding: 18px 48px;
+  border-radius: 47px;
+  margin-top: 49px;
+  background-color: black;
+  color: white;
+
+    font-family: Cormorant Garamond;
+}
+.best-btn:hover{
+  border: #fc0000 solid 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 201, 0);
+}
+.best-img-2::after {
+  position: absolute;
+  content: "";
+  width: 1269px;
+  height: 1232px;
+  background: url(../img/croo1.png);
+    background-repeat: repeat;
+  background-repeat: repeat;
+  top: 172px;
+  left: -151px;
+  right: 40px;
+  background-repeat: no-repeat;
+}
+.best-design-img2 {
+  border: #eec668 solid 31px;
+  border-radius: 285px;
+  margin-top: 219px;
+  margin-left: -66px;
+}
+.design2{
+  color: #fff;
+  bottom: 82px;
+  display: inline-block;
+  position: absolute;
+  left: 84px;
+  right: 0;
+  font-size: 20px;
+    font-family: Cormorant Garamond;
+}
+.best-btn2 {
+  background: #000;
+  border: #ebbf60 solid 3px;
+  width: 190px;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 27px;
+  text-align: center;
+  margin-top: 20px;
+    font-family: Cormorant Garamond;
+}
+.best-btn2:hover{
+  border: #f2740d solid 3px;
+  background-color: #f2740d;
+  color: rgb(99, 255, 79);
+  font-weight: bold;
+}
+.best-img-3 {
+  margin-top: 102px;
+  margin-left: -25px;
+}
+.best-design3-img{
+  border: #eec668 solid 31px;
+  border-radius: 285px;
+}
+.design-3{
+  color: #fff;
+  bottom: 82px;
+  display: inline-block;
+  position: absolute;
+  left: 112px;
+  right: 0;
+  font-size: 20px;
+    font-family: Cormorant Garamond;
+}
+.best-btn3{
+  border: #ebbf60 solid 3px;
+  padding: 18px 48px;
+  border-radius: 47px;
+  margin-top: 49px;
+  background-color: black;
+  color: white;
+  margin-left: 294px;
+    font-family: Cormorant Garamond;
+}
+.best-btn3:hover{
+  border: #f2740d solid 3px;
+  background-color: #f2740d;
+  color: rgb(99, 255, 79);
+  font-weight: bold;
+}
+.best-text1{
+  margin-top: 465px;
+    font-family: Cormorant Garamond;
+}
+.best-div-2 {
+  margin-bottom: 136px;
+    font-family: Cormorant Garamond;
+}
+.best-text3{
+  margin-top: 365px;
+    font-family: Cormorant Garamond;
+}
+.mb-3 {
+  margin-top: 17px;
+}
+.form-group {
+  margin-bottom: 0rem;
+}
+.form {
+  margin-top: 59px;
+  border: #eec668 solid 7px;
+  padding: 8px 33px;
+  border-radius: 32px;
+  margin-bottom: 20px;
+}
+.Form-btn {
+  padding: 16px 42px;
+  border-radius: 62px;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.Form-btn:hover{
+  background-color: #c78b00;
+}
+.last-img {
+  width: 100%;
+  margin-top: 74px;
+  position: relative;
+}
+
+.clint-img {
+  width: 116px;
+  margin-left: -1px;
+  border-radius: 64%;
+  margin-top: 43px;
+  margin-bottom: 31px;
+  margin-top: 164px;
+}
+.img-box {
+  width: 20%;
+}
+
+.overview {
+  text-align: center;
+  display: grid;
+  color: rgb(0, 0, 0) !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 554px;
+}
+
+
+.carousel-indicators li {
+border-radius: 52%;
+width: 9px;
+height: 13px;
+overflow: hidden;
+margin-top: -199px;
+}
+
+
+.carousel {
+  position: relative;
+  padding: 0px 10px;
+}
+.clints-txt {
+  width: 95%;
+  float: right;
+  margin-top: -125px;
+  margin-right: -84px;
+  position: initial;
+}
+.testimonial {
+  margin-top: 31px;
+  color: rgb(0, 0, 0);
+}
+.carousel-indicators {
+  z-index: 0!important;
+}
+
+
+.footer {
+  background-color: #eec668;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Hurricane', cursive;;
+}
+
+.name {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+}
+
+.footer-facebook {
+  padding: 4px 22px;
+  font-size: 33px;
+  margin-bottom: 5%;
+  color: deeppink;
+  border-radius: 100%;
+}
+
+.footer-facebook:hover{
+
+color: #B30404;
+transition:  .3s;
+}
+
+
+.footer-twitter {
+  padding: 4px 22px;
+  font-size: 33px;
+  margin-bottom: 5%;
+  color: deeppink;
+  border-radius: 100%;
+}
+
+
+.footer-twitter:hover{
+
+  color: #ff6600;
+  transition:  .3s;
+    }
+
+.footer-linkedin {
+  padding: 4px 22px;
+  font-size: 33px;
+  margin-bottom: 5%;
+  color: deeppink;
+  border-radius: 100%;
+}
+
+.footer-linkedin:hover{
+
+  color: #00e1ff;
+  transition:  .3s;
+    }
+
+
+    hr {
+      margin-top: -2rem;
+      margin-bottom: 2rem;
+      border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+      border-top-color: currentcolor;
+      border-top-style: none;
+      border-top-width: 0px;
+      border-top: 1px solid rgba(255, 0, 0, 0.48);
+    }
+    .copyrights {
+      font-family: Ramaraja, serif;
+    }
+    .best-jj {
+      font-family: Cormorant Garamond;
+    }
+    .call-back{
+      font-family: Cormorant Garamond,serif;
+    }
+    .Client{
+      font-family: Cormorant Garamond,serif;
+      margin-top: 54px;
+    }
